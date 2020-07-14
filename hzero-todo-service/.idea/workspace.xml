@@ -7,10 +7,21 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c70b40b-5f52-4b66-8b04-4a058b30923b" name="Default Changelist" comment="" />
+    <list default="true" id="1c70b40b-5f52-4b66-8b04-4a058b30923b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +50,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TodoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hzero-todo-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hzero.todo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hzero.todo.TodoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TodoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594696897543</updated>
-      <workItem from="1594696900381" duration="1163000" />
+      <workItem from="1594696900381" duration="5073000" />
     </task>
     <servers />
   </component>
@@ -68,20 +103,71 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1594697108105">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1594704648039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594697108105" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1594697109861">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594704648039" />
+    <state width="1323" height="292" key="GridCell.Tab.0.bottom" timestamp="1594705270772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594697109861" />
+    <state width="1323" height="292" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594705270772" />
+    <state width="1323" height="292" key="GridCell.Tab.0.center" timestamp="1594705270771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594705270771" />
+    <state width="1323" height="292" key="GridCell.Tab.0.left" timestamp="1594705270771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594705270771" />
+    <state width="1323" height="292" key="GridCell.Tab.0.right" timestamp="1594705270771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594705270771" />
+    <state width="1323" height="292" key="GridCell.Tab.1.bottom" timestamp="1594705270772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594705270772" />
+    <state width="1323" height="292" key="GridCell.Tab.1.center" timestamp="1594705270772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594705270772" />
+    <state width="1323" height="292" key="GridCell.Tab.1.left" timestamp="1594705270772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594705270772" />
+    <state width="1323" height="292" key="GridCell.Tab.1.right" timestamp="1594705270772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594705270772" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1594707179870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594707179870" />
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594704708492">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594704708492" />
   </component>
 </project>

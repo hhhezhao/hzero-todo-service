@@ -1,10 +1,10 @@
 server:
   # 服务端口
-  port: 8088
+  port: 8888
 management:
   server:
     # 监控管理端口
-    port: 8089
+    port: 8889
   endpoints:
     web:
       exposure:
