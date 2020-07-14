@@ -1,0 +1,6 @@
+# 日志配置
+logging:
+  level:
+    org.hzero: ${LOG_LEVEL:debug}
+    org.apache.ibatis: ${LOG_LEVEL:debug}
+    io.choerodon: ${LOG_LEVEL:debug}
