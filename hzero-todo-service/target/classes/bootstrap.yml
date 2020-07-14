@@ -1,15 +1,20 @@
 server:
   # 服务端口
-  port: 8888
+  port: 8088
 management:
   server:
     # 监控管理端口
-    port: 8889
+    port: 8888
   endpoints:
     web:
       exposure:
         # 需要开放的 Actuator 监控端点，默认开放所有
         include: '*'
+
+eureka:
+  client:
+    fetch-registry: false # false表示自己就是注册中心。我的职责就是维护服务实例，并不需要去检索服务
+    register-with-eureka: false #false表示自己不需要向注册中心注册自己
 
 spring:
   application:
