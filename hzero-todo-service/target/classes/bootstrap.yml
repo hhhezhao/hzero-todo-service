@@ -17,6 +17,10 @@ eureka:
     register-with-eureka: false #false表示自己不需要向注册中心注册自己
 
 spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://db.hzero.org:3306/todo_service?useUnicode=true&characterEncoding=utf-8&useSSL=false}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:123456}
   application:
     name: hzero-todo-service
   profiles:
@@ -41,3 +45,8 @@ spring:
       ignored-interfaces[0]: lo
       # 本地多网卡时，选择注册的网段
       preferred-networks[0]: 192.168
+# MyBatis Mapper 扫描
+mybatis:
+  mapperLocations: classpath*:/mapper/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
